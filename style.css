@@ -6,3 +6,26 @@ body{
     border-radius: 25%;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("images/lava\ canyon12.png"), url(images/battleground\ lake\ big\ fish.png);
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* .parallax2{
+    background-image: url(images/battleground\ lake\ big\ fish.png);
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
