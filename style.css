@@ -1,31 +1,47 @@
-body{
-    text-align: center;
+/* body {
+  text-align: center;
+} */
+body,
+html {
+  height: 100%;
+  text-align: center;
 }
-
-.card img{
-    border-radius: 25%;
+.card {
+  height: 40rem;
+}
+.card img {
+  height: 25rem;
+}
+.carousel img {
+  height: 40vh;
+  width: 50vw;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("images/lava\ canyon12.png"), url(images/battleground\ lake\ big\ fish.png);
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  /* .parallax2{
-    background-image: url(images/battleground\ lake\ big\ fish.png);
+  /* The image used */
+  background-image: url("images/IMG_0434.png");
+  overflow: hidden;
 
-    min-height: 500px;
+  /* Full height */
+  height: 100%;
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("images/IMG_0441.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
